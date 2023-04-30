@@ -1,0 +1,6 @@
+[submodule "cdk-app1"]
+	path = cdk-app1
+	url = https://github.com/semii404/cdk-app1.git
+[submodule "cdk-app2"]
+	path = cdk-app2
+	url = https://github.com/semii404/cdk-app2.git

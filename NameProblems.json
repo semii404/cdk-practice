@@ -1,0 +1,21 @@
+{
+    "Resources": {
+        "MyBucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName":{
+                    "Fn::Join":[
+                        "-",
+                        [
+                            "demoid",
+                            {
+                                "Ref":"AWS::AccountId"
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    }
+}
+  
